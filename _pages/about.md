@@ -6,7 +6,7 @@ subtitle: PhD Student · <a href='https://uni-tuebingen.de/en/'>University of T�
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_1493.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>University of Tübingen</p>

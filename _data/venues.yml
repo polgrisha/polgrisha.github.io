@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"EMNLP 2025":
+  url: https://2025.emnlp.org/
+  color: "#d62728"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"SIGIR 2025":
+  url: https://sigir2025.dei.unipd.it
+  color: "#1f77b4"
 
-"Vision":
-  color: "#009f36"
+"SIGIR 2023":
+  url: https://sigir.org/sigir2023/
+  color: "#1f77b4"
+
+"ACL REALM 2025":
+  url: https://realm-workshop.github.io
+  color: "#2ca02c"
