@@ -1,10 +1,8 @@
 cv:
   name: Gregory Polyakov
-  label: PhD Student
-  email: grigorii.poliakov@uni-tuebingen.de
   location: Tübingen, Germany
-  image: ""
-  summary: A second year PhD student at the University of Tübingen and IMPRS-IS with a strong background in applied mathematics, computer science, and industrial research in machine learning. My research focuses on the interpretability of deep learning models for NLP and IR, aiming to make complex ML systems more transparent and reliable by understanding their internal behavior. Proven track record of publishing in top-tier venues (EMNLP, SIGIR) and contributing to industrial R\&D for production search engines and voice assistants.
+  email: grigorii.poliakov@uni-tuebingen.de
+  website: https://polgrisha.github.io
 
   social_networks:
     - network: GitHub
@@ -13,14 +11,16 @@ cv:
       username: gregory.polyakov
 
   sections:
+    summary:
+      - A second-year PhD student at the University of Tübingen and IMPRS-IS researching interpretability of deep learning models for NLP and IR. Proven track record of publishing in top-tier venues (EMNLP, SIGIR) and contributing to industrial R&D for production search engines and voice assistants.
+
     Education:
       - institution: University of Tübingen & Max Planck Research School
         location: Tübingen, Germany
-        url: https://uni-tuebingen.de/en/
         area: Computer Science
-        studyType: PhD
+        degree: PhD
         start_date: 2024-09
-        end_date: Present
+        end_date: present
         highlights:
           - "Health-NLP Lab, Supervisor: Prof. Dr. Carsten Eickhoff."
           - "Affiliated Scholar, International Max Planck Research School for Intelligent Systems (IMPRS-IS)."
@@ -28,25 +28,23 @@ cv:
 
       - institution: Moscow Institute of Physics and Technology
         location: Moscow, Russia
-        url: https://mipt.ru/english/
         area: Applied Mathematics and Computer Science
-        studyType: MSc
+        degree: MSc
         start_date: 2021-09
         end_date: 2024-07
-        score: "GPA 3.35 / 4.00"
         highlights:
+          - "GPA: 3.35 / 4.00"
           - "Research topics: Sparse Retrieval, Multimodal Retrieval, Tool Calling in LLMs."
           - 'Thesis: "Approaches to Training Language Models for External Function Calling: Using Self-Generated Data for Better Error Detection and Recovery".'
 
       - institution: Moscow Institute of Physics and Technology
         location: Moscow, Russia
-        url: https://mipt.ru/english/
         area: Applied Mathematics and Computer Science
-        studyType: BSc
+        degree: BSc
         start_date: 2017-09
         end_date: 2021-07
-        score: "GPA 3.48 / 4.00"
         highlights:
+          - "GPA: 3.48 / 4.00"
           - 'Thesis: "Usage of MCMC Methods in Deep Learning".'
 
     Experience:
@@ -55,7 +53,6 @@ cv:
         location: Moscow, Russia
         start_date: 2022-11
         end_date: 2024-09
-        summary: ""
         highlights:
           - "Investigated LLM tool usage capabilities. Developed a fine-tuning strategy for error recovery, leading to a publication at the ACL 2025 REALM Workshop."
           - "Conducted research on multimodal (Text-Video) retrieval, contributing to video retrieval post-processing techniques published at SIGIR 2023."
@@ -70,26 +67,85 @@ cv:
           - "Co-developed and optimized the reranking algorithm for a large-scale product search engine in Russian."
           - "Improved the reranker model quality by 5% and reduced its inference latency by 1.5x by adapting novel architectural (ColBERTer) and distillation approaches (TinyBERT)."
 
+    Publications:
+      - title: Interpretability Analysis of Arithmetic In-Context Learning in Large Language Models
+        authors:
+          - G. Polyakov
+          - C. Hepting
+          - C. Eickhoff
+          - A. Bahrainian
+        date: 2025
+        journal: EMNLP 2025
+
+      - title: Towards Best Practices of Axiomatic Activation Patching in Information Retrieval
+        authors:
+          - G. Polyakov
+          - C. Chen
+          - C. Eickhoff
+        date: 2025
+        journal: SIGIR 2025
+
+      - title: "ToolReflection: Improving Large Language Models for Real-World API Calls with Self-Generated Data"
+        authors:
+          - G. Polyakov
+          - I. Alimova
+          - D. Abulkhanov
+          - I. Sedykh
+          - A. Bout
+          - S. Nikolenko
+          - I. Piontkovskaya
+        date: 2025
+        journal: ACL 2025 REALM Workshop
+
+      - title: Sinkhorn Transformations for Single-Query Postprocessing in Text-Video Retrieval
+        authors:
+          - K. Yakovlev
+          - G. Polyakov
+          - I. Alimova
+          - A. V. Podolskiy
+          - A. Bout
+          - S. I. Nikolenko
+          - I. Piontkovskaya
+        date: 2023
+        journal: SIGIR 2023
+
     Awards:
-      - title: Presidential Grant Scholarship
+      - name: Presidential Grant Scholarship
+        title: Presidential Grant Scholarship
         date: 2018-02
         awarder: Russian Federation
-        summary: "Selected as one of 1,200 recipients nationwide for this highly competitive prize recognizing high academic merit and strong participation in competitions. Included a full 4-year stipend supporting undergraduate research and studies."
+        summary: "Selected as one of 1,200 recipients nationwide for this highly competitive prize recognizing high academic merit. Included a full 4-year stipend supporting undergraduate research and studies."
+
+    Teaching:
+      - name: "Teaching Assistant: Modern Search Engines"
+        date: 2025
+        location: University of Tübingen
+        summary: "Summer Semester 2025. Conducted hands-on tutorials, evaluated assignments, and mentored student projects."
+
+      - name: "Teaching Assistant: Introduction to Python Programming"
+        date: 2024
+        location: University of Tübingen
+        summary: "Winter Semesters 2024/25 and 2025/26. Conducted hands-on tutorials and evaluated student assignments."
 
     Skills:
-      - name: Programming
-        level: ""
+      - label: Programming Languages and Frameworks
+        details: "Python, C/C++, Bash, LaTeX"
+        name: Programming Languages and Frameworks
         icon: fa-solid fa-code
         keywords: "Python, C/C++, Bash, LaTeX"
 
-      - name: ML & NLP
-        level: ""
+      - label: Technologies
+        details: "PyTorch, Transformers, FAISS, PEFT, Scikit-learn, Transformer Lens, CatBoost, Pyro"
+        name: Technologies
         icon: fa-solid fa-brain
         keywords: "PyTorch, Transformers, FAISS, PEFT, Scikit-learn, Transformer Lens, CatBoost, Pyro"
 
     Languages:
-      - name: Russian
-        summary: "Native"
-
-      - name: English
+      - label: Russian
+        details: Native
+        name: Russian
+        summary: Native
+      - label: English
+        details: "C1 (IELTS Band Score 7)"
+        name: English
         summary: "C1 (IELTS Band Score 7)"
