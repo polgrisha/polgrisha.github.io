@@ -462,7 +462,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/CV_Gregory.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -477,6 +477,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=mINW8_YAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/polgrisha", "_blank");
         },
       },{
       id: 'light-theme',
