@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD student at the [University of Tübingen](https://uni-tuebingen.de/en/) and [IMPRS-IS](https://imprs.is.mpg.de/), working in the [Health-NLP Lab](https://health-nlp.com/) under the supervision of [Prof. Dr. Carsten Eickhoff](https://www.eickhoff.io/). My research focuses on the **interpretability of deep learning models** for NLP and Information Retrieval, aiming to make complex ML systems more transparent and reliable by understanding their internal behavior.
 
-Before starting my PhD, I worked as an NLP Research Engineer at [Huawei Noah's Ark Lab](https://www.noahlab.com.hk/), where I contributed to research on LLM tool usage, multimodal retrieval, and production NLU systems. I hold BSc and MSc degrees in Applied Mathematics and Computer Science from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/).
+I am a second-year PhD student at the [University of Tübingen](https://uni-tuebingen.de/en/) and [Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) working on interpretability of deep learning models for NLP and information retrieval in the [Health-NLP Lab](https://health-nlp.com/) under the supervision of Prof. Dr. Carsten Eickhoff. The aim of my research is to make complex ML systems more transparent by reverse-engineering their internal mechanisms and leveraging these insights to steer model behavior, improve safety, and build more reliable systems.
 
-I have published at top-tier venues including EMNLP, SIGIR, and ACL workshops, with work spanning mechanistic interpretability of arithmetic reasoning in LLMs, activation patching methods for neural rankers, and self-correcting tool use in language models.
+Before starting my PhD, I worked as an NLP Research Engineer at [Huawei Noah's Ark Lab](http://dev3.noahlab.com.hk), where I contributed to research on LLM tool usage, multimodal retrieval, and production NLU systems. I hold BSc and MSc degrees in Applied Mathematics and Computer Science from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/).
+xs
