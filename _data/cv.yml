@@ -11,8 +11,8 @@ cv:
       username: gregory.polyakov
 
   sections:
-    summary:
-      - A second-year PhD student at the University of Tübingen and IMPRS-IS researching interpretability of deep learning models for NLP and IR. Proven track record of publishing in top-tier venues (EMNLP, SIGIR) and contributing to industrial R&D for production search engines and voice assistants.
+    # summary:
+    #   - A second-year PhD student at the University of Tübingen and IMPRS-IS researching interpretability of deep learning models for NLP and IR. Proven track record of publishing in top-tier venues (EMNLP, SIGIR) and contributing to industrial R&D for production search engines and voice assistants.
 
     Education:
       - institution: University of Tübingen & Max Planck Research School
@@ -109,7 +109,7 @@ cv:
         date: 2023
         journal: SIGIR 2023
 
-    Awards:
+    Scholarships:
       - name: Presidential Grant Scholarship
         title: Presidential Grant Scholarship
         date: 2018-02
@@ -118,27 +118,25 @@ cv:
 
     Teaching:
       - name: "Teaching Assistant: Modern Search Engines"
-        date: 2025
         location: University of Tübingen
-        summary: "Summer Semester 2025. Conducted hands-on tutorials, evaluated assignments, and mentored student projects."
+        summary: "Summer Semesters 2025 and 2026. Conducted hands-on tutorials, evaluated assignments, and mentored student projects."
 
       - name: "Teaching Assistant: Introduction to Python Programming"
-        date: 2024
         location: University of Tübingen
         summary: "Winter Semesters 2024/25 and 2025/26. Conducted hands-on tutorials and evaluated student assignments."
 
-    Skills:
-      - label: Programming Languages and Frameworks
-        details: "Python, C/C++, Bash, LaTeX"
-        name: Programming Languages and Frameworks
-        icon: fa-solid fa-code
-        keywords: "Python, C/C++, Bash, LaTeX"
+    # Skills:
+    #   - label: Programming Languages and Frameworks
+    #     details: "Python, C/C++, Bash, LaTeX"
+    #     name: Programming Languages and Frameworks
+    #     icon: fa-solid fa-code
+    #     keywords: "Python, C/C++, Bash, LaTeX"
 
-      - label: Technologies
-        details: "PyTorch, Transformers, FAISS, PEFT, Scikit-learn, Transformer Lens, CatBoost, Pyro"
-        name: Technologies
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, Transformers, FAISS, PEFT, Scikit-learn, Transformer Lens, CatBoost, Pyro"
+    #   - label: Technologies
+    #     details: "PyTorch, Transformers, FAISS, PEFT, Scikit-learn, Transformer Lens, CatBoost, Pyro"
+    #     name: Technologies
+    #     icon: fa-solid fa-brain
+    #     keywords: "PyTorch, Transformers, FAISS, PEFT, Scikit-learn, Transformer Lens, CatBoost, Pyro"
 
     Languages:
       - label: Russian

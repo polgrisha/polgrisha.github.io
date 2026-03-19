@@ -29,5 +29,4 @@ latest_posts:
 
 I am a second-year PhD student at the [University of Tübingen](https://uni-tuebingen.de/en/) and [Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) working on interpretability of deep learning models for NLP and information retrieval in the [Health-NLP Lab](https://health-nlp.com/) under the supervision of Prof. Dr. Carsten Eickhoff. The aim of my research is to make complex ML systems more transparent by reverse-engineering their internal mechanisms and leveraging these insights to steer model behavior, improve safety, and build more reliable systems.
 
-Before starting my PhD, I worked as an NLP Research Engineer at [Huawei Noah's Ark Lab](http://dev3.noahlab.com.hk), where I contributed to research on LLM tool usage, multimodal retrieval, and production NLU systems. I hold BSc and MSc degrees in Applied Mathematics and Computer Science from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/).
-xs
+Before starting my PhD, I worked as an NLP Research Engineer at [Huawei Noah's Ark Lab](http://dev3.noahlab.com.hk), where I contributed to research on LLM tool usage, multimodal retrieval, and production NLU systems. I hold BSc and MSc degrees in Applied Mathematics and Computer Science from the [Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/english/).
