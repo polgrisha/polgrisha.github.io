@@ -68,6 +68,14 @@ cv:
           - "Improved the reranker model quality by 5% and reduced its inference latency by 1.5x by adapting novel architectural (ColBERTer) and distillation approaches (TinyBERT)."
 
     Publications:
+      - title: "Understanding Wacky Weights: A Dissection of SPLADE's Learned Term Importance"
+        authors:
+          - G. Polyakov
+          - H. Scells
+          - C. Eickhoff
+        date: 2026
+        journal: SIGIR 2026
+
       - title: Interpretability Analysis of Arithmetic In-Context Learning in Large Language Models
         authors:
           - G. Polyakov
@@ -114,7 +122,7 @@ cv:
         title: Presidential Grant Scholarship
         date: 2018-02
         awarder: Russian Federation
-        summary: "Selected as one of 1,200 recipients nationwide for this highly competitive prize recognizing high academic merit. Included a full 4-year stipend supporting undergraduate research and studies."
+        summary: "Selected as one of 1,200 recipients nationwide for this highly competitive prize recognizing high academic merit and strong participation in competitions. Included a full 4-year stipend supporting undergraduate research and studies."
 
     Teaching:
       - name: "Teaching Assistant: Modern Search Engines"

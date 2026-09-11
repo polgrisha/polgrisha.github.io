@@ -1,6 +1,22 @@
 ---
 ---
 
+@inproceedings{10.1145/3805712.3808562, 
+  author = {Polyakov, Gregory and Scells, Harrisen and Eickhoff, Carsten}, 
+  title = {Understanding Wacky Weights: A Dissection of SPLADE's Learned Term Importance}, 
+  year = {2026}, 
+  isbn = {9798400725999}, 
+  publisher = {Association for Computing Machinery}, 
+  address = {New York, NY, USA}, 
+  url = {https://doi.org/10.1145/3805712.3808562}, 
+  doi = {10.1145/3805712.3808562}, 
+  abstract = {Learned sparse retrieval models such as SPLADE combine the effectiveness of neural architectures with the efficiency of inverted indices. As these models assign weights to terms from a fixed vocabulary, interpretability is often touted as a major benefit of these models. However, the emergence of wacky weights, i.e., expansion terms that appear semantically unrelated to the input, limits interpretability. While prior research has anecdotally observed this phenomenon, there is a lack of systematic understanding regarding their origins, prevalence, and contribution to retrieval effectiveness. In this paper, we reproduce SPLADE-v2 to systematically investigate wacky weights across the SPLADE family of models. We present a comprehensive dissection of wacky weights, providing a formal definition of wackiness based on the lexical utility of expansion terms. Furthermore, we introduce a novel measure to compare the prevalence of these tokens across models with varying vocabularies and sparsity levels. Beyond reproducing the original SPLADE-v2, we train it with various loss functions, datasets, and backbone transformers to isolate the factors contributing to wackiness. Our results show that larger vocabularies are associated with a higher prevalence of wacky tokens, while stricter sparsity regularizers are associated with lower prevalence. Finally, we find that wacky weights are used primarily for in-domain effectiveness rather than out-of-domain generalization.}, booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval}, 
+  pages = {3028–3038}, 
+  numpages = {11}, 
+  keywords = {learned sparse retrieval, interpretability, wacky weights}, 
+  location = {Australia}, 
+  series = {SIGIR '26} }
+
 @inproceedings{polyakov2025interpretability,
   title={Interpretability Analysis of Arithmetic In-Context Learning in Large Language Models},
   author={Polyakov, Gregory and Hepting, Christian and Eickhoff, Carsten and Bahrainian, Seyed Ali},
