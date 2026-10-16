@@ -3,7 +3,6 @@ cv:
   location: Tübingen, Germany
   email: grigorii.poliakov@uni-tuebingen.de
   website: https://polgrisha.github.io
-  summary: "Third-year PhD student at the University of Tübingen and IMPRS-IS working on mechanistic interpretability of language models for NLP and IR. I study how models implement complex behaviors such as hallucination, in-context learning, and relevance estimation, and turn these findings into methods for controlling and improving them. First author of four papers, including at EMNLP and SIGIR, with three years of industrial R&D at Huawei Noah's Ark Lab on production search and voice-assistant systems."
 
   social_networks:
     - network: GitHub
