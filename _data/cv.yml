@@ -142,16 +142,16 @@ cv:
         summary: "Winter Semesters 2024/25 and 2025/26. Conducted hands-on tutorials and evaluated student assignments."
 
     Skills:
-      - name: Programming
-        keywords: [Python, C/C++, Bash]
-      - name: ML & NLP
-        keywords: [PyTorch, Hugging Face Transformers, PEFT, Scikit-learn, CatBoost]
-      - name: Interpretability
-        keywords: [TransformerLens, causal mediation analysis, steering, probing, sparse autoencoders, cross-layer transcoders]
-      - name: IR
-        keywords: [Pyserini, FAISS, sparse and dense retrieval, neural reranking]
-      - name: Infrastructure
-        keywords: [SLURM, multi-GPU training, Git]
+      - label: Programming
+        details: Python, C/C++, Bash
+      - label: ML & NLP
+        details: PyTorch, Hugging Face Transformers, PEFT, Scikit-learn, CatBoost
+      - label: Interpretability
+        details: TransformerLens, causal mediation analysis, steering, probing, sparse autoencoders, cross-layer transcoders
+      - label: IR
+        details: Pyserini, FAISS, sparse and dense retrieval, neural reranking
+      - label: Infrastructure
+        details: SLURM, multi-GPU training, Git
 
     Languages:
       - label: Russian
