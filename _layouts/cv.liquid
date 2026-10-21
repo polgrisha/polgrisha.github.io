@@ -160,7 +160,7 @@ layout: default
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' or section_title == 'Scholarships' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
-              {% elsif section_title == 'Teaching' %}
+              {% elsif section_title == 'Teaching' or section_title == 'Invited Talks' %}
                 {% assign entries = section_entries %}
                 {% include cv/normal_entry.liquid %}
               {% elsif section_title == 'Publications' %}

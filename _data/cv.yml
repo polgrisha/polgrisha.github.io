@@ -1,7 +1,7 @@
 cv:
   name: Gregory Polyakov
   location: Tübingen, Germany
-  email: grigorii.poliakov@uni-tuebingen.de
+  email: polgrisha@gmail.com
   website: https://polgrisha.github.io
 
   social_networks:
@@ -17,11 +17,13 @@ cv:
         area: Computer Science
         degree: PhD
         start_date: 2024-10
-        end_date: present
+        end_date: 2028-08
         highlights:
           - "Health-NLP Lab, Supervisor: Prof. Dr. Carsten Eickhoff."
           - "Scholar, International Max Planck Research School for Intelligent Systems (IMPRS-IS)."
           - "Research focus: Mechanistic interpretability of language models for NLP and IR tasks."
+          - "Expected graduation: Aug 2028."
+          - "Available for an internship in 2027 (flexible dates and duration)."
 
       - institution: Moscow Institute of Physics and Technology
         location: Moscow, Russia
@@ -30,7 +32,7 @@ cv:
         start_date: 2021-09
         end_date: 2024-07
         highlights:
-          - "Research topics: Sparse Retrieval, Multimodal Retrieval, Tool Calling in LLMs."
+          - "Research topics: sparse retrieval, multimodal retrieval, tool calling in LLMs."
           - 'Thesis: "Approaches to Training Language Models for External Function Calling: Using Self-Generated Data for Better Error Detection and Recovery".'
 
       - institution: Moscow Institute of Physics and Technology
@@ -42,35 +44,25 @@ cv:
         highlights:
           - 'Thesis: "Usage of MCMC Methods in Deep Learning".'
 
-    Experience:
-      - company: Huawei Noah's Ark Lab
-        position: NLP Research Engineer (full-time)
-        location: Moscow, Russia
-        start_date: 2022-11
-        end_date: 2024-09
-        highlights:
-          - "Designed and co-implemented the end-to-end NLU pipeline for a production in-car voice assistant in Russian."
-          - "Developed a fine-tuning method that teaches LLMs to detect and recover from failed API calls (ACL 2025 REALM Workshop)."
-          - "Co-developed a post-processing method for text-video retrieval (SIGIR 2023)."
-
-      - company: Huawei Noah's Ark Lab
-        position: NLP Research Intern (full-time)
-        location: Moscow, Russia
-        start_date: 2021-10
-        end_date: 2022-11
-        highlights:
-          - "Co-developed the reranking model for a large-scale Russian-language product search engine: improved ranking quality by 5% relative NDCG@10 and cut inference latency 1.5x by adapting ColBERTer and TinyBERT-style distillation."
-
     Publications:
+      - title: Predicting Hallucinations Before, During, and After Generation with Sparse Autoencoder Features
+        authors:
+          - G. Polyakov
+          - A. Bahrainian
+          - C. Eickhoff
+        date: 2026
+        journal: Under review
+        summary: "Systematically studied hallucination detection from model internals before, during, and after generation, showing that a substantial signal exists before generation. Proposed PreSAGE, a trainable SAE-based detector with gated feature selection and attention pooling, best in 19 of 24 QA settings and the most consistent overall."
+
       - title: "Understanding Wacky Weights: A Dissection of SPLADE's Learned Term Importance"
         authors:
           - G. Polyakov
           - H. Scells
           - C. Eickhoff
         date: 2026
-        journal: SIGIR 2026
+        journal: SIGIR 2026 (Reproducibility)
         url: https://arxiv.org/abs/2605.19628
-        summary: "Introduced metrics to formally quantify wacky weights (semantically unrelated expansion terms) in SPLADE sparse retrieval models. Showed that wacky weights mainly drive in-domain effectiveness, and measured which SPLADE settings promote more wacky weights."
+        summary: "Introduced the Wackiness Score and W-AUC to quantify semantically unrelated expansion terms across models with different vocabularies and sparsity levels. Trained 6 SPLADE variants, showing that the prevalence of wacky tokens increases with vocabulary size and that they mainly aid in-domain retrieval."
 
       - title: Interpretability Analysis of Arithmetic In-Context Learning in Large Language Models
         authors:
@@ -79,9 +71,9 @@ cv:
           - C. Eickhoff
           - A. Bahrainian
         date: 2025
-        journal: EMNLP 2025
+        journal: EMNLP 2025 (Main)
         url: https://aclanthology.org/2025.emnlp-main.92/
-        summary: "Identified the internal mechanisms LLMs use for in-context learning on arithmetic tasks. Used these findings to design a steering method that improves zero-shot performance, reducing the need for few-shot examples."
+        summary: "Traced how 4 LLMs (up to 12B) use in-context examples for multi-step arithmetic, showing that format consistency matters more than arithmetic correctness. Distilled in-context examples into a function vector that raises zero-shot accuracy by up to 25 points and fully recovers one-shot accuracy on Pythia-12B."
 
       - title: Towards Best Practices of Axiomatic Activation Patching in Information Retrieval
         authors:
@@ -89,7 +81,7 @@ cv:
           - C. Chen
           - C. Eickhoff
         date: 2025
-        journal: SIGIR 2025
+        journal: SIGIR 2025 (Short)
         url: https://dl.acm.org/doi/10.1145/3726302.3730256
         summary: "Proposed a noise-mitigating evaluation metric for activation patching in neural rankers that filters out spurious low-confidence signals. Systematically analyzed diagnostic datasets, identifying key selection criteria for queries and documents to ensure robust interpretability analysis."
 
@@ -103,9 +95,9 @@ cv:
           - S. Nikolenko
           - I. Piontkovskaya
         date: 2025
-        journal: ACL 2025 REALM Workshop
+        journal: ACL 2025 (REALM Workshop)
         url: https://aclanthology.org/2025.realm-1.14/
-        summary: "Proposed a fine-tuning strategy that enables LLMs to self-correct API calls by learning from runtime execution feedback. Co-developed evaluation datasets designed to assess tool-augmented LLMs in more realistic scenarios."
+        summary: "Proposed a fine-tuning strategy that enables LLMs to self-correct API calls by learning from runtime execution feedback. Co-developed evaluation datasets for tool-augmented LLMs in realistic scenarios."
 
       - title: Sinkhorn Transformations for Single-Query Postprocessing in Text-Video Retrieval
         authors:
@@ -117,16 +109,39 @@ cv:
           - S. I. Nikolenko
           - I. Piontkovskaya
         date: 2023
-        journal: SIGIR 2023
+        journal: SIGIR 2023 (Short)
         url: https://arxiv.org/abs/2311.08143
-        summary: "Co-developed a post-processing method based on Sinkhorn transformations that improves video retrieval quality. Introduced a realistic evaluation setting to compare post-processing methods in scenarios closer to real-world applications."
+
+    Experience:
+      - company: Huawei Noah's Ark Lab
+        position: NLP Research Engineer (full-time)
+        location: Moscow, Russia
+        start_date: 2022-11
+        end_date: 2024-09
+        highlights:
+          - "Developed a fine-tuning method that teaches LLMs to detect and recover from failed API calls (ACL 2025 REALM Workshop)."
+          - "Designed and co-implemented the end-to-end NLU pipeline for a production in-car voice assistant in Russian."
+          - "Co-developed a Sinkhorn-based post-processing method that improves text-video retrieval quality (SIGIR 2023)."
+
+      - company: Huawei Noah's Ark Lab
+        position: NLP Research Intern (full-time)
+        location: Moscow, Russia
+        start_date: 2021-10
+        end_date: 2022-11
+        highlights:
+          - "Co-developed the reranking model for a large-scale Russian-language product search engine: improved ranking quality by 5% relative NDCG@10 and cut inference latency 1.5x by adapting ColBERTer and TinyBERT-style distillation."
+
+    Invited Talks:
+      - name: "Understanding Wacky Weights: A Dissection of SPLADE's Learned Term Importance"
+        location: Glasgow IR Seminar, University of Glasgow
+        date: 2026-10
 
     Scholarships:
       - name: Presidential Grant Scholarship
         title: Presidential Grant Scholarship
         date: 2018-02
         awarder: Russian Federation
-        summary: "Feb 2018 – Aug 2021. One of 1,200 recipients nationwide; four-year stipend awarded for academic merit and competition results."
+        summary: "Feb 2018 – Aug 2021. Four-year stipend for academic and competition merit, one of 1,200 recipients nationwide."
 
     Teaching:
       - name: "Teaching Assistant: Introduction to AI"
@@ -147,21 +162,21 @@ cv:
         name: "Programming"
         keywords: "Python, C/C++, Bash"
       - label: "ML & NLP"
-        details: "PyTorch, Hugging Face Transformers, PEFT, Scikit-learn, CatBoost"
+        details: "PyTorch, Hugging Face Transformers, PEFT, LLM fine-tuning (SFT, LoRA), tool use, Scikit-learn"
         name: "ML & NLP"
-        keywords: "PyTorch, Hugging Face Transformers, PEFT, Scikit-learn, CatBoost"
+        keywords: "PyTorch, Hugging Face Transformers, PEFT, LLM fine-tuning (SFT, LoRA), tool use, Scikit-learn"
       - label: "Interpretability"
-        details: "TransformerLens, causal mediation analysis, steering, probing, sparse autoencoders, cross-layer transcoders"
+        details: "TransformerLens, activation patching, steering, probing, SAEs, cross-layer transcoders"
         name: "Interpretability"
-        keywords: "TransformerLens, causal mediation analysis, steering, probing, sparse autoencoders, cross-layer transcoders"
+        keywords: "TransformerLens, activation patching, steering, probing, SAEs, cross-layer transcoders"
       - label: "IR"
-        details: "Pyserini, FAISS, sparse and dense retrieval, neural reranking"
+        details: "Pyserini, FAISS, sparse and dense retrieval, neural reranking, knowledge distillation"
         name: "IR"
-        keywords: "Pyserini, FAISS, sparse and dense retrieval, neural reranking"
+        keywords: "Pyserini, FAISS, sparse and dense retrieval, neural reranking, knowledge distillation"
       - label: "Infrastructure"
-        details: "SLURM, multi-GPU training, Git"
+        details: "SLURM, multi-GPU training (HF Accelerate), Git"
         name: "Infrastructure"
-        keywords: "SLURM, multi-GPU training, Git"
+        keywords: "SLURM, multi-GPU training (HF Accelerate), Git"
 
     Languages:
       - label: Russian
