@@ -45,15 +45,6 @@ cv:
           - 'Thesis: "Usage of MCMC Methods in Deep Learning".'
 
     Publications:
-      - title: Predicting Hallucinations Before, During, and After Generation with Sparse Autoencoder Features
-        authors:
-          - G. Polyakov
-          - A. Bahrainian
-          - C. Eickhoff
-        date: 2026
-        journal: Under review
-        summary: "Systematically studied hallucination detection from model internals before, during, and after generation, showing that a substantial signal exists before generation. Proposed PreSAGE, a trainable SAE-based detector with gated feature selection and attention pooling, best in 19 of 24 QA settings and the most consistent overall."
-
       - title: "Understanding Wacky Weights: A Dissection of SPLADE's Learned Term Importance"
         authors:
           - G. Polyakov
