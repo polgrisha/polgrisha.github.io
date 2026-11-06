@@ -4,6 +4,8 @@ cv:
   email: polgrisha@gmail.com
   website: https://polgrisha.github.io
 
+  summary: "Third-year PhD student at the University of Tübingen and IMPRS-IS working on mechanistic interpretability of language models for NLP and IR. Studies how models implement complex behaviors such as hallucination, in-context learning, and relevance estimation, and turns these findings into methods for controlling and improving them. First author of four papers, including at EMNLP and SIGIR, with three years of industrial experience at Huawei Noah's Ark Lab in production search, LLM tool use, and voice-assistant systems."
+
   social_networks:
     - network: GitHub
       username: polgrisha
@@ -21,9 +23,8 @@ cv:
         highlights:
           - "Health-NLP Lab, Supervisor: Prof. Dr. Carsten Eickhoff."
           - "Scholar, International Max Planck Research School for Intelligent Systems (IMPRS-IS)."
-          - "Research focus: Mechanistic interpretability of language models for NLP and IR tasks."
-          - "Expected graduation: Aug 2028."
-          - "Available for an internship in 2027 (flexible dates and duration)."
+          - "Research focus: Interpretability of language models for NLP and IR tasks."
+          - "Available for an internship from February 2027 for up to 6 months."
 
       - institution: Moscow Institute of Physics and Technology
         location: Moscow, Russia
@@ -53,7 +54,7 @@ cv:
         date: 2026
         journal: SIGIR 2026 (Reproducibility)
         url: https://arxiv.org/abs/2605.19628
-        summary: "Introduced the Wackiness Score and W-AUC to quantify semantically unrelated expansion terms across models with different vocabularies and sparsity levels. Trained 6 SPLADE variants, showing that the prevalence of wacky tokens increases with vocabulary size and that they mainly aid in-domain retrieval."
+        summary: "Introduced the Wackiness Score and W-AUC to quantify semantically unrelated expansion terms across models with different vocabularies and sparsity levels. Trained 6 SPLADE variants, showing that the prevalence of wacky weights increases with vocabulary size and that they mainly aid in-domain retrieval."
 
       - title: Interpretability Analysis of Arithmetic In-Context Learning in Large Language Models
         authors:
@@ -64,7 +65,7 @@ cv:
         date: 2025
         journal: EMNLP 2025 (Main)
         url: https://aclanthology.org/2025.emnlp-main.92/
-        summary: "Traced how 4 LLMs (up to 12B) use in-context examples for multi-step arithmetic, showing that format consistency matters more than arithmetic correctness. Distilled in-context examples into a function vector that raises zero-shot accuracy by up to 25 points and fully recovers one-shot accuracy on Pythia-12B."
+        summary: "Identified the core computational pathway through which 4 LLMs (up to 12B) use in-context examples for multi-step arithmetic, from early-layer MLPs to the final token. Distilled in-context examples into a function vector that raises zero-shot accuracy by up to 25% absolute and fully recovers one-shot accuracy on Pythia-12B."
 
       - title: Towards Best Practices of Axiomatic Activation Patching in Information Retrieval
         authors:
@@ -88,7 +89,7 @@ cv:
         date: 2025
         journal: ACL 2025 (REALM Workshop)
         url: https://aclanthology.org/2025.realm-1.14/
-        summary: "Proposed a fine-tuning strategy that enables LLMs to self-correct API calls by learning from runtime execution feedback. Co-developed evaluation datasets for tool-augmented LLMs in realistic scenarios."
+        summary: "Fine-tuned 7B–13B LLMs (LLaMA, Vicuna) to self-correct API calls by learning from runtime execution feedback. Co-developed evaluation datasets for tool-augmented LLMs in more realistic scenarios."
 
       - title: Sinkhorn Transformations for Single-Query Postprocessing in Text-Video Retrieval
         authors:
@@ -103,7 +104,7 @@ cv:
         journal: SIGIR 2023 (Short)
         url: https://arxiv.org/abs/2311.08143
 
-    Experience:
+    Work Experience:
       - company: Huawei Noah's Ark Lab
         position: NLP Research Engineer (full-time)
         location: Moscow, Russia
@@ -127,25 +128,25 @@ cv:
         location: Glasgow IR Seminar, University of Glasgow
         date: 2026-10
 
-    Scholarships:
+    Funding & Scholarships:
       - name: Presidential Grant Scholarship
         title: Presidential Grant Scholarship
         date: 2018-02
         awarder: Russian Federation
         summary: "Feb 2018 – Aug 2021. Four-year stipend for academic and competition merit, one of 1,200 recipients nationwide."
 
-    Teaching:
+    Teaching Experience:
       - name: "Teaching Assistant: Introduction to AI"
         location: University of Tübingen
         summary: "Winter Semester 2026/27. Conducted hands-on tutorials and evaluated student assignments."
 
       - name: "Teaching Assistant: Modern Search Engines"
         location: University of Tübingen
-        summary: "Summer Semesters 2025 and 2026. Conducted hands-on tutorials, evaluated assignments, and mentored student projects."
+        summary: "Summer Semesters 2025, 2026. Conducted hands-on tutorials, evaluated assignments, and mentored student projects."
 
       - name: "Teaching Assistant: Introduction to Python Programming"
         location: University of Tübingen
-        summary: "Winter Semesters 2024/25 and 2025/26. Conducted hands-on tutorials and evaluated student assignments."
+        summary: "Winter Semesters 2024/25, 2025/26. Conducted hands-on tutorials and evaluated student assignments."
 
     Skills:
       - label: "Programming"
@@ -153,28 +154,18 @@ cv:
         name: "Programming"
         keywords: "Python, C/C++, Bash"
       - label: "ML & NLP"
-        details: "PyTorch, Hugging Face Transformers, PEFT, LLM fine-tuning (SFT, LoRA), tool use, Scikit-learn"
+        details: "PyTorch, HF Transformers, PEFT, LLM fine-tuning (SFT, LoRA), reinforcement learning (GRPO), tool use, tabular foundation models (TabPFN)"
         name: "ML & NLP"
-        keywords: "PyTorch, Hugging Face Transformers, PEFT, LLM fine-tuning (SFT, LoRA), tool use, Scikit-learn"
+        keywords: "PyTorch, HF Transformers, PEFT, LLM fine-tuning (SFT, LoRA), reinforcement learning (GRPO), tool use, tabular foundation models (TabPFN)"
       - label: "Interpretability"
-        details: "TransformerLens, activation patching, steering, probing, sparse autoencoders, cross-layer transcoders"
+        details: "TransformerLens, activation patching, steering, probing, sparse autoencoders, transcoders"
         name: "Interpretability"
-        keywords: "TransformerLens, activation patching, steering, probing, sparse autoencoders, cross-layer transcoders"
+        keywords: "TransformerLens, activation patching, steering, probing, sparse autoencoders, transcoders"
       - label: "IR"
-        details: "Pyserini, FAISS, sparse and dense retrieval, neural reranking, knowledge distillation"
+        details: "Pyserini, FAISS, sparse and dense retrieval, neural ranking, RAG, knowledge distillation"
         name: "IR"
-        keywords: "Pyserini, FAISS, sparse and dense retrieval, neural reranking, knowledge distillation"
+        keywords: "Pyserini, FAISS, sparse and dense retrieval, neural ranking, RAG, knowledge distillation"
       - label: "Infrastructure"
         details: "SLURM, multi-GPU training (HF Accelerate), Git"
         name: "Infrastructure"
         keywords: "SLURM, multi-GPU training (HF Accelerate), Git"
-
-    Languages:
-      - label: Russian
-        details: Native
-        name: Russian
-        summary: Native
-      - label: English
-        details: "C1 (IELTS Band Score 7)"
-        name: English
-        summary: "C1 (IELTS Band Score 7)"
