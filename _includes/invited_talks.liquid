@@ -1,0 +1,30 @@
+<div class="news">
+  {% assign talks = site.data.cv.cv.sections['Invited Talks'] %}
+  {% if talks and talks.size > 0 %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% assign talks = talks | sort: 'date' | reverse %}
+        {% assign month_names = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec' | split: ',' %}
+        {% for talk in talks %}
+          {% assign date_parts = talk.date | split: '-' %}
+          {% assign talk_year = date_parts[0] %}
+          {% if date_parts[1] %}
+            {% assign month_index = date_parts[1] | plus: 0 | minus: 1 %}
+            {% assign talk_display_date = month_names[month_index] | append: ' ' | append: talk_year %}
+          {% else %}
+            {% assign talk_display_date = talk_year %}
+          {% endif %}
+          <tr>
+            <th scope="row" style="width: 20%">{{ talk_display_date }}</th>
+            <td>
+              <span class="news-title">{{ talk.name }}</span>
+              {% if talk.location %}<br />{{ talk.location }}{% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No invited talks so far...</p>
+  {% endif %}
+</div>

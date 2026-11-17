@@ -13,6 +13,7 @@ profile:
     <p>Tübingen, Germany</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+invited_talks: true # includes a list of talks from the CV's "Invited Talks" section
 social: true # includes social icons at the bottom of the page
 
 announcements:
